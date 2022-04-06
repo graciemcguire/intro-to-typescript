@@ -8,10 +8,10 @@
 ## Introduction
 
 If you've ever worked with JavaScript, you've undoubtedly run into bugs that took
-what felt like forever to find the root of, weird errors, or lack-there-of,
-(Looking at you, `'undefined' is not a function`), and cursed the JavaScript gods
-for allowing such problems to always happen. If this sounds familiar, then
-TypeScript may be the answer to your curses.
+what felt like forever to find the root of or weird errors (looking at you, 
+`'undefined' is not a function`), and cursed the JavaScript gods for allowing such
+problems to always happen. If this sounds familiar, then TypeScript may be the
+answer to your curses.
 
 A superset of JavaScript, TypeScript was created by Microsoft in 2012 to help
 developers write code, and catch errors and bugs quickly and efficiently. This
@@ -36,19 +36,20 @@ still fully encompassing the entirety of the original language.
 
 Think about JavaScript before ES6. If you were writing a program in ES5 or
 before, and tried to use `const` to declare a constant variable, it wouldn't
-work, right? But if you were writing your program using ES6 and wanted to go old
-school and use `var` to declare your constant variable, it would still work, but
-you would be opening your code up to a lot of potential bugs in the future. The
-same idea goes for TypeScript. We can write regular JavaScript code into a
-TypeScript file and it will work fine, but by using TypeScript it will work a
-whole lot better, and save us a lot of debugging and hair-pulling down the line.
+work, right? On the other hand, if you were writing your program using ES6 and
+wanted to go old school and use `var` to declare your constant variable, it
+would still work, but you would be opening your code up to a lot of potential
+bugs in the future. The same idea goes for TypeScript. We can write regular
+JavaScript code into a TypeScript file and it will work fine, but by using
+TypeScript it will work a whole lot better, and save us a lot of debugging
+and hair-pulling down the line.
 
-TypeScript builds onto JavaScript by adding type-checking and type
-declaration abilities for all different data-types, classes, and other
-object-oriented features through its type system.
+TypeScript builds onto JavaScript by adding type-checking and type declaration
+abilities for all different data-types, as well as classes and other
+object-oriented features, through its type system.
 
-By declaring types, we can write extremely explicit JavaScript code by
-telling our program what type of datatype a variable should be, what a function argument
+By declaring types, we can write extremely explicit JavaScript code by telling
+our program what type of datatype a variable should be, what a function argument
 should be, what our arrays will contain, and more!
 
 By using this type system and the TypeScript compiler, TypeScript is able to
@@ -57,10 +58,10 @@ work out of debugging!
 
 ## Working with Types
 
-We recommend getting to know the [TypeScript docs][], as they are very thorough,
-easy to follow, and an all around great resource, but we wanted to go over a couple
-of the ways we can work with Types in TypeScript to give you a good sense of
-what the benefits of TypeScript are!
+We recommend getting to know the [TypeScript docs][typescript], as they are very
+thorough, easy to follow, and an all around great resource, but we wanted to go
+over a couple of the ways we can work with Types in TypeScript to give you a good
+sense of what the benefits of TypeScript are!
 
 - **Type by Inference**
 - **Type Annotation**
@@ -70,7 +71,7 @@ Let's dig into each of these features and talk a bit more about each one.
 ### Type by Inference
 
 TypeScript uses type inference to assume the type of a variable in a program,
-based on the data type it was assigned at it's initial declaration. If we try to
+based on the data type it was assigned at its initial declaration. If we try to
 change the data type, type inference will log a complaint.
 
 ```ts
@@ -94,17 +95,17 @@ const userObj = {
 // {id: number, firstName: string, lastName: string, occupation: string}
 ```
 
-Thanks to type inference, explicitly shaping an object like this will give us
-the correct types but what if we want to do things a bit more dynamically?
+Thanks to type inference, TypeScript correctly infers the type we want to use
+for each property. However, what if we want to do things a bit more dynamically?
 
 ### Defining Types
 
 Sometimes inferring the types we're using in our code isn't always as explicit
-and straight forward as the example above. TypeScript always knows the shapes of
+and straightforward as the example above. TypeScript always knows the shapes of
 our types - what methods and properties our variables do/don't contain. We can
 use this concept of _shaping_, and define our types to fit the specific needs of
-our programs by using _type annotations_. Type annotations ensure that we only
-ever assign certain types to our variables, let's take a look.
+our programs, by using _type annotations_. Type annotations ensure that we only
+ever assign certain types to our variables. Let's take a look.
 
 ```ts
 // We can use an interface declaration to describe our object's shape:
@@ -148,13 +149,14 @@ are super helpful!
 
 As you saw, TypeScript is a super helpful and powerful tool for us to write
 clean and error-free code. TypeScript helps us catch errors at compile time,
-makes refactoring much easier, and stops JavaScript type coercion in it's tracks!
+makes refactoring much easier, and stops JavaScript type coercion in its tracks!
 
 ## Resources
 
 - [2021 State of JS][state-of-js]
 - [Top Languages Over The Years][top-languages]
-- [TypeScript docs](https://www.typescriptlang.org/docs/)
+- [TypeScript docs][typescript]
 
 [state-of-js]: https://2021.stateofjs.com/en-US/other-tools
 [top-languages]: https://octoverse.github.com/#top-languages-over-the-years
+[typescript]: https://www.typescriptlang.org/docs/
