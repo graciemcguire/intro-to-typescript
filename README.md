@@ -23,12 +23,12 @@ awesome and useful.
 
 ## TypeScript Overview
 
-In a study done for the [2021 State of JS][], 69% of the developers polled said
-they preferred to use TypeScript as their JavaScript compiler, and in the Github
-study, [Top Languages Over The Years][], TypeScript came in as the #4 most
-popular language for 2 years in a row! (2020-2021)
+In a study done for the [2021 State of JS][state-of-js], 69% of the developers
+polled said they preferred to use TypeScript as their JavaScript compiler, and
+in the Github study, [Top Languages Over The Years][top-languages], TypeScript
+came in as the #4 most popular language for 2 years in a row! (2020-2021)
 
-[Octoverse - Top Languages Over The Years 2021 Image]('https://curriculum-content.s3.amazonaws.com/blackrock/intro-to-typescript/top-languages-used-2021.png')
+![Octoverse - Top Languages Over The Years 2021 Image](https://curriculum-content.s3.amazonaws.com/blackrock/intro-to-typescript/top-languages-used-2021.png)
 
 As mentioned above, TypeScript is a superset of JavaScript... so what does that
 mean? A superset expands and elaborates on all the parts of a language, while
@@ -152,6 +152,9 @@ makes refactoring much easier, and stops JavaScript type coercion in it's tracks
 
 ## Resources
 
-- [2021 State of JS]('https://2021.stateofjs.com/en-US/other-tools')
-- [Top Languages Over The Years]('https://octoverse.github.com/#top-languages-over-the-years')
-- [TypeScript docs]('https://www.typescriptlang.org/docs/')
+- [2021 State of JS][state-of-js]
+- [Top Languages Over The Years][top-languages]
+- [TypeScript docs](https://www.typescriptlang.org/docs/)
+
+[state-of-js]: https://2021.stateofjs.com/en-US/other-tools
+[top-languages]: https://octoverse.github.com/#top-languages-over-the-years
