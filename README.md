@@ -57,6 +57,11 @@ work out of debugging!
 
 ## Working with Types
 
+We recommend getting to know the [TypeScript docs][], as they are very thorough,
+easy to follow, and an all around great resource, but we wanted to go over a couple
+of the ways we can work with Types in TypeScript to give you a good sense of
+what the benefits of types are!
+
 - need to re work this section
   - type asignments
   - custom types
